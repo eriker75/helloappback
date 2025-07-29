@@ -6,8 +6,21 @@ name = "pypi"
 [packages]
 django = "*"
 asgiref = "*"
+requests = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+django-cors-headers = "*"
+pillow = "*"
+django-filter = "*"
+django-environ = "*"
+drf-yasg = "*"
+channels = "*"
+django-storages = "*"
+django-allauth = "*"
+dj-rest-auth = "*"
 
 [dev-packages]
+psycopg2-binary = "*"
 
 [requires]
 python_version = "3.11"
