@@ -12,7 +12,7 @@ urlpatterns = [
 # Authentication and user/profile API endpoints
 urlpatterns += [
     # Manual auth endpoints will be added here
-    path("api/user/", include("apps.userprofile.urls")),
+    path("api/user/", include("apps.users.urls")),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

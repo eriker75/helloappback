@@ -18,7 +18,7 @@ class AuthAndProfileAPITests(APITestCase):
             "email": "newuser@example.com",
             "username": "newuser",
             "password": "newpass123",
-            "password2": "newpass123",
+            "password_confirmed": "newpass123",
             "first_name": "New",
             "last_name": "User"
         }

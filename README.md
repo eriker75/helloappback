@@ -36,8 +36,11 @@ Manual implementation using Django REST Framework and SimpleJWT:
 - **Password change:** `POST /api/user/auth/password/change/`
 - **User info:** `GET/PATCH /api/user/me/`
 - **Profile:** `GET/PATCH /api/user/profile/`
+- **Google Login:** `POST /api/user/auth/google/`
+  Accepts `{ "id_token": "<Google ID Token>" }` in the body. Verifies the token, authenticates or creates the user, and returns JWT tokens.
 
 See [`docs/devlog.md`](docs/devlog.md) and task files in `/docs` for implementation details.
 
 ---
+
 *Keep this README updated with any changes to environment or configuration requirements.*

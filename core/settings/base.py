@@ -34,7 +34,7 @@ THIRD_PARTY_APPS = [
 ]
 
 LOCAL_APPS = [
-    "apps.userprofile",
+    "apps.users",
     "apps.chats",
 ]
 
@@ -81,7 +81,7 @@ CHANNEL_LAYERS = {
     },
 }
 
-AUTH_USER_MODEL = "userprofile.User"
+AUTH_USER_MODEL = "users.User"
 
 PASSWORD_HASHERS = [
     "django.contrib.auth.hashers.Argon2PasswordHasher",
