@@ -1,0 +1,61 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore test and coverage files
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+test-results/
+.hypothesis/
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore git and VCS
+.git/
+.gitignore
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore local environment/config files
+.env
+.env.*
+*.env
+*.secret
+*.bak
+local_settings.py
+
+# Ignore build/distribution artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheels/
+
+# Ignore media/static (if not needed in build)
+media/
+static/
+staticfiles/
+
+# Ignore Docker compose and Dockerfiles (if not needed in build context)
+docker-compose*.yml
+Dockerfile*
+.dockerignore
+
+# System files
+.DS_Store
+Thumbs.db
