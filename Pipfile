@@ -18,9 +18,15 @@ channels = "*"
 django-storages = "*"
 django-allauth = "*"
 dj-rest-auth = "*"
+celery = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
+flower = "*"
+cryptography = "*"
+argon2-cffi = "*"
+redis = "*"
 
 [dev-packages]
-psycopg2-binary = "*"
 
 [requires]
 python_version = "3.11"
